@@ -30,4 +30,8 @@ Menu		->CMagicMenu		:CMenu<br/>
 ToolBar		->CMagicToolBar		:CToolBar<br/>
 StatusBar	->CMagicStatusBar	:CstatusBar<br/>
 <br/><b>四、标签使用说明</b><br/>
-（详见/doc/《开发文档.doc》）
+（详见/doc/《开发文档.doc》）<br/>
+
+<img src="https://github.com/xuguangyan/MagicUI/blob/master/demo/MP3Player.jpg" />
+<img src="https://github.com/xuguangyan/MagicUI/blob/master/demo/MSNLogin.jpg" />
+
