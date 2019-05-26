@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="gb2312" ?> 
+<Theme >
+<Window Name="MP3PlayerWnd" Rect="200,100,290,145" CanMove="true" FixSize="false" MaxSize="290,145" MinSize="290,145" UseMaskColor="true" Background="player_skin.bmp" WindowBorder="0,0,0,0" BackColor="#D7D7DF">
+<!--系统按纽-->
+<Button Name="btnMin" Rect="247,2,11,10" Background="minimize.bmp" ToolTip="最小化"/>
+<Button Name="btnMiniMode" Rect="259,2,11,10" Background="minimode.bmp" ToolTip="迷你窗口" Cmd="2000"/>
+<Button Name="btnClose" Rect="271,2,11,10" Background="close.bmp" ToolTip="关闭"/>
+
+<Button Name="play" Rect="32,109,30,29" Background="play.bmp" Cmd="2001"/>
+<Button Name="pause" Rect="32,109,30,29" Background="pause.bmp" Cmd="2002"/>
+<Button Name="stop" Rect="62,109,30,29" Background="stop.bmp" Cmd="2003"/>
+<Button Name="prev" Rect="2,109,30,29" Background="prev.bmp" Cmd="2004"/>
+<Button Name="next" Rect="92,109,30,29" Background="next.bmp" Cmd="2005"/>
+
+<Button Name="mute" Rect="133,121,13,13" Background="mute.bmp" Cmd="2006"/>
+<Button Name="open" Rect="245,62,28,23" Background="open.bmp" Cmd="2007"/>
+
+<Button Name="lyric" Rect="199,91,22,13" Background="lyric.bmp" Cmd="2008"/>
+<Button Name="equalizer" Rect="226,91,22,13" Background="equalizer.bmp" Cmd="2009"/>
+<Button Name="playlist" Rect="253,91,21,13" Background="playlist.bmp" Cmd="2010"/>
+</Window>
+</Theme>

@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6efd9de0-5982-4b8d-b075-9f679a68afec}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6976d563-278a-4bb5-9821-a8518b44647c}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GdiPlus">
+      <UniqueIdentifier>{04a5cd4c-a597-4c48-a889-d01c466c462b}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\MagicUI">
+      <UniqueIdentifier>{b3c1bc01-881f-41d1-b081-e6bbe05b8479}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{b307e84c-fcf1-460c-a287-52d364b62b5e}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Attrib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicCheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicCombo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicFillRegion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicPicture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicRadio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Markup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MagicUI.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\GdiPlus\GdiPlus.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusBase.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusBitmap.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusBrush.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusCachedBitmap.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusColor.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusColorMatrix.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusEnums.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusFlat.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusFont.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusFontCollection.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusFontFamily.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusGpStubs.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusGraphics.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusHeaders.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusimageAttributes.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusImageCodec.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusImaging.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusInit.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusLineCaps.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusMatrix.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusMem.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusMetaFile.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusMetaHeader.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusPath.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusPen.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusPixelFormats.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusRegion.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusStringFormat.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GdiPlus\GdiPlusTypes.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicCheck.h">
+      <Filter>Header Files\GdiPlus</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MagicUI\DataDefine.h">
+      <Filter>Header Files\MagicUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MagicUI\GUI_Export.h">
+      <Filter>Header Files\MagicUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MagicUI\MagicButton.h">
+      <Filter>Header Files\MagicUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MagicUI\MagicCheck.h">
+      <Filter>Header Files\MagicUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MagicUI\MagicCombo.h">
+      <Filter>Header Files\MagicUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MagicUI\MagicEdit.h">
+      <Filter>Header Files\MagicUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MagicUI\MagicFillRegion.h">
+      <Filter>Header Files\MagicUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MagicUI\MagicGroup.h">
+      <Filter>Header Files\MagicUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MagicUI\MagicPicture.h">
+      <Filter>Header Files\MagicUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MagicUI\MagicRadio.h">
+      <Filter>Header Files\MagicUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MagicUI\MagicText.h">
+      <Filter>Header Files\MagicUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MagicUI\MagicUI.h">
+      <Filter>Header Files\MagicUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MagicUI\MagicWnd.h">
+      <Filter>Header Files\MagicUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MagicUI\Predefine.h">
+      <Filter>Header Files\MagicUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Attrib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Markup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MagicUI.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="MagicUI.def">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\MagicUI.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="gb2312" ?> 
+<Theme >
+<Window Name="msnLoginWnd" Rect="200,100,300,600" CanMove="true" FixSize="false" MaxSize="300,600" MinSize="300,200" UseMaskColor="true" Background="msnLogin_skin.bmp" WindowBorder="10,10,10,10" BackColor="#ecf3f6">
+<Picture Name="msnLoginTitle" Rect="0,0, 300,120" Image="msnLogin_Title.png" DrawStyle="Stretch"/>
+<Picture Name="WindowLogo" Rect="6,6, 16,16" Image="WindowLogo.png" DrawStyle="Stretch"/>
+<Text Name="Title" Rect="30,10,200,40" String="Windows Live Messenger" TextColor="#ffffff"/>
+<!--系统按纽-->
+<Button Name="btnMin" Rect="230,6,16,16" Image="Min.png" ToolTip="最小化"/>
+<Button Name="btnMax" Rect="251,6,16,16" Image="Restore.png" ToolTip="最大化"/>
+<Button Name="btnClose" Rect="272,6,16,16" Image="Close.png" ToolTip="关闭"/>
+
+<Picture Name="Girl_Logo" Rect="100,80, 100,100" Image="girl_01.png"/>
+
+<Text Rect="30,200,240,20" String="电子邮件地址(&E):" TextColor="#333333"/>
+<ComboBox Name="AddressCombo" Rect="30,220,240,100" String="ABC|DEF|GHI|ABC|DEF|GHI" IndexSel="1"/>
+<Text Rect="30,250,240,20" String="密码(&W):" TextColor="#333333"/>
+<Edit Name="PwdEdit" Rect="30,270,240,20" IsPassword="true" String="123" ToolTip="请输入密码"/>
+<Text Rect="30,300,80,20" String="状态(&S):" TextColor="#333333"/>
+<Text Rect="85,298,58,20" String="联机 ▼:" OutCursor="girl.ani" UserStyle="BorderText" Cmd="2000"/>
+
+<CheckBox Name="SaveInfoCheck" Selected="1" Rect="50,330,150,20" String="保存我的信息(&B)" ToolTip="工具提示"/>
+<Text Name="DelInfo" Rect="70,350,150,20" String="(删除我的信息)(&M):" UserStyle="LinkText" Cmd="2001"/>
+<CheckBox Name="SavePwdCheck" Rect="50,370,150,20" String="保存我的密码(&R)" ToolTip="工具提示"/> 
+<CheckBox Name="AutoLogin" Rect="50,390,150,20" String="自动为我登陆(&N)" ToolTip="工具提示"/> 
+
+<RadioBox Name="Male" GroupID="1" Selected="1" Rect="50,430,70,20" String="男(&M)" ToolTip="工具提示"/> 
+<RadioBox Name="FelMale" GroupID="1" Rect="130,430,70,20" String="女(&F)" ToolTip="工具提示"/>
+
+<GroupBox Name="GroupBox" Rect="10,450,160,100" String="群组框"/>
+<Text Name="LostPwd" Rect="20,480,150,20" String="忘记密码了？" UserStyle="LinkText" Cmd="2002"/>
+<Text Rect="20,500,150,20" String="服务状态" UserStyle="LinkText" Cmd="2003"/>
+<Text Rect="20,520,150,20" String="获取新的帐号" UserStyle="LinkText" Cmd="2004"/>
+
+<FillRegion Name="FillRegion" Rect="180,470,100,80"/>
+<Text Rect="190,500,100,20" String="温馨提示..." TextColor="#0088e4" FontSize="12" FontName="隶书" Bold="1"/>
+
+</Window>
+</Theme>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="gb2312" ?> 
+<CONTROL_STYLE>
+<ButtonStyle 
+	TextColor="#333333" 
+	TextColorFocus="#0088e4" 
+	TextColorSelected="#0088e4" 
+	TextColorDisabled="#808080" 
+	FontSize="10" 
+	FontName="宋体" 
+	Bold="0" 
+	Italic="0" 
+	Underline="0" 
+	StrikeOut="0" 
+	AlignH="center" 
+	AlignV="center" 
+/>
+<CheckBoxStyle 
+	TextColor="#333333" 
+	TextColorFocus="#0088e4" 
+	TextColorSelected="#0088e4" 
+	TextColorDisabled="#808080" 
+	FontSize="10" 
+	FontName="宋体" 
+	Bold="0" 
+	Italic="0" 
+	Underline="0" 
+	StrikeOut="0" 
+	AlignH="left" 
+	AlignV=""
+	BackGround="" 
+	Image="GlobalCheckBox.png" 
+/>
+<RadioButtonStyle 
+	TextColor="#333333" 
+	TextColorFocus="#0088e4" 
+	TextColorSelected="#0088e4" 
+	TextColorDisabled="#808080" 
+	FontSize="10" 
+	FontName="宋体" 
+	Bold="0" 
+	Italic="0" 
+	Underline="0" 
+	StrikeOut="0" 
+	AlignH="left" 
+	AlignV=""
+	BackGround="" 
+	Image="GlobalRadioButton.png" 
+/>
+<ComboBoxStyle
+	TextColor="#999999" 
+	TextColorHover="#666666" 
+	TextColorDisabled="#EEEEEE"
+	BackColor="#FFFFFF" 
+	BackColorHover="#ECF3F6" 
+	BackColorDisabled="#FFFFFF" 
+	BorderColor="#AAB7C7" 
+	BtnColor="#ECF3F6" 
+	FontSize="10" 
+	FontName="宋体" 
+	Bold="0" 
+	Italic="0" 
+	Underline="0" 
+	StrikeOut="0" 
+/>
+<TextStyle 
+	TextColor="#333333" 
+	FontSize="10" 
+	FontName="宋体" 
+	Bold="0" 
+	Italic="0" 
+	Underline="0" 
+	StrikeOut="0" 
+	AlignH="left" 
+	AlignV="" 
+/>
+<!--重定义TextStyle样式-->
+<LinkText 
+	TextColor="#0088e4" 
+	TextColorFocus="#0088e4" 
+	TextColorSelected="#0088e4" 
+	TextColorDisabled="#808080" 
+	UnderlineFocus="1" 
+/>
+<BorderText 
+	 TextColor="#666666" 
+	 BorderColorFocus="#cccccc" 
+	 BorderColorSelected="#cccccc" 
+	 AlignH="center" 
+	 AlignV="center"
+/>
+<EditStyle
+	TextColor="#666666" 
+	TextColorHover="#333333" 
+	TextColorFocus="#333333" 
+	BorderColor="#aab7c7" 
+	BorderColorHover="#0088e4" 
+	BorderColorFocus="#aab7c7" 
+	FontSize="10" 
+	FontName="宋体" 
+	Bold="0" 
+	Italic="0" 
+	Underline="0" 
+	StrikeOut="0" 
+	AlignH="left" 
+/>
+<GroupBoxStyle
+	TextColor="#0088e4" 
+	FontSize="10" 
+	FontName="宋体" 
+	Bold="0" 
+	Italic="0" 
+	Underline="0" 
+	StrikeOut="0" 
+	AlignH="center" 
+/>
+<FillRegionStyle
+	BackColor="#ff00ff" 
+	BorderColor="#0000ff" 
+	BorderWidth="2" 
+	Corner="10" 
+	Alpha="80" 
+/>
+</CONTROL_STYLE>

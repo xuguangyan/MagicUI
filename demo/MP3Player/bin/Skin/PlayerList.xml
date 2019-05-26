@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gb2312" ?> 
+<Theme >
+<Window Name="PlayerListWnd" Rect="200,245,290,400" CanMove="true" FixSize="false" MaxSize="290,500" MinSize="290,105" UseMaskColor="true" Background="playlist_skin.bmp" WindowBorder="8,55,6,12" BackColor="#1C3D7D">
+<!--系统按纽-->
+<Button Name="btnHide" Rect="270,1,11,10" Background="close.bmp" ToolTip="关闭" Cmd="3000"/>
+
+<Picture Rect="110,-3,66,18" Background="playlist_title.bmp"/>
+
+</Window>
+</Theme>

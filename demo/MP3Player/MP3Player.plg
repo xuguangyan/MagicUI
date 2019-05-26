@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MP3Player - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MP3Player.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\编程类\工作区\VCproject\控件开发\MagicUI\demo\MP3Player\MP3Player.cpp"
+"D:\编程类\工作区\VCproject\控件开发\MagicUI\demo\MP3Player\MP3PlayerMain.cpp"
+"D:\编程类\工作区\VCproject\控件开发\MagicUI\demo\MP3Player\PlayerList.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MP3Player.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\编程类\工作区\VCproject\控件开发\MagicUI\demo\MP3Player\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5F.tmp" with contents
+[
+../../MagicUI/Debug/MagicUI.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MP3Player.pdb" /debug /machine:I386 /out:"bin/MP3Player.exe" /pdbtype:sept 
+".\Debug\MP3Player.obj"
+".\Debug\MP3PlayerMain.obj"
+".\Debug\PlayerList.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MP3Player.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5F.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+Skipping... (no relevant changes detected)
+MP3Player.cpp
+MP3PlayerMain.cpp
+PlayerList.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+MP3Player.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body {
+	background-color: #FFFFFF;
+	margin: 0px;
+	background-image: url(bg.gif);
+}
+body,td,th {
+	font-family: ËÎÌו;
+	font-size: 14px;
+	color: #666666;
+}
+select input option{ 
+	FONT-SIZE: 9pt;
+	BORDER-LEFT: 1px solid #cccccc;
+	BORDER-RIGHT: 1px solid #cccccc;
+	BORDER-TOP: 1px solid #cccccc;
+	BORDER-BOTTOM: 1px solid #cccccc;
+	PADDING-LEFT: 1px;
+	PADDING-RIGHT: 1px;
+	PADDING-TOP: 1px;
+	PADDING-BOTTOM: 1px;
+}
+form {
+	MARGIN: 0px
+}
+
+a {
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000000;
+}
+a:hover {
+	color: #FF9900;
+}
+.title{
+	font-family: "ËÎÌו";
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.top td {
+	font-size: 14px;
+	color: #666666;
+}
+.top a {
+	font-size: 14px;
+	color: #ffffff;
+	text-decoration: none;
+}
+.top a:visited {
+	color: #ffffff;
+}
+.top a:hover {
+	color: #FF9900;
+}
+
+.bottom td {
+	font-size: 12px;
+	color: #666666;
+}
+.bottom a {
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+}
+.bottom a:visited {
+	color: #666666;
+}
+.bottom a:hover {
+	color: #333333;
+}
+
+
+.aa {
+	background-image: url(links_bg2.gif);
+	cursor:pointer;
+}
+.bb {
+	background-image: url(links_bg1.gif);
+	cursor:pointer;
+}

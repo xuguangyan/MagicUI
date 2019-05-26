@@ -1,0 +1,4 @@
+2008-12-16	当<Picture>属性DrawStyle设置为"AutoSize"时,其前面创建的控件被隐藏。
+			主要原因是CMagicPicture类中,OnPaint事件里用了SetWindowPos函数。（问题待解）
+2008-12-21	当<Edit>为多行文本时,背景和边框不能正常显示。（问题待解）
+2008-12-21	当<Combox>隐藏时,背景和边框不能正常隐藏。（问题待解）
